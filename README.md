@@ -1,6 +1,9 @@
-# Filter Card
+# Angular Filter Card
 Filter card is useful in implementing a search results sidebar filter. It is on early stage. Will update on freetime.
 ![time](./src/assets/screenshot.png)
+```bash
+git clone https://github.com/arunkumarv/filter-card.git
+```
 ```javascript
   data = [
     { value: 10, name:'India', checked: true },
@@ -22,4 +25,8 @@ Filter card is useful in implementing a search results sidebar filter. It is on 
 ```
 
 Compiled using Angular 8.3.22.
+
+## To do
+- Normalise the data values to prevent overflow and make it easy to customise. 
+
 
