@@ -1,0 +1,17 @@
+<div class="filter-card">
+    <div *ngFor="let ele of data" class="element">
+        <div style="float:left;width:20px;">
+            <label class="container">
+                <input type="checkbox" [(ngModel)]="ele.checked" (change)="checkBoxChanged()" />
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="name-bar" (click)="barClicked(ele)">
+            <div class="ele-name">{{ele.name}}</div>
+            <div class="div-bar" [style.width.%]="ele.value">
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
