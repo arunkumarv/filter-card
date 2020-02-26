@@ -3,6 +3,7 @@ Filter card is useful in implementing a search results sidebar filter. It is on 
 ![time](./src/assets/screenshot.png)
 ```bash
 git clone https://github.com/arunkumarv/filter-card.git
+ng serve
 ```
 ```javascript
   data = [
