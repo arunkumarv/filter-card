@@ -1,5 +1,5 @@
 # Angular Filter Card
-Filter card is useful in implementing a search results sidebar filter. It is on early stage. Will update on freetime.
+Filter card is useful in implementing a search results sidebar filter. 
 ![time](./src/assets/screenshot.png)
 ```bash
 git clone https://github.com/arunkumarv/filter-card.git
